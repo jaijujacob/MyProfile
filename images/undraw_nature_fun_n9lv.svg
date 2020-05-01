@@ -41,9 +41,9 @@
      inkscape:window-height="2062"
      id="namedview191"
      showgrid="false"
-     inkscape:zoom="2.7650086"
-     inkscape:cx="291.34058"
-     inkscape:cy="342.31358"
+     inkscape:zoom="1.3825043"
+     inkscape:cx="-75.25025"
+     inkscape:cy="251.0806"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -74,15 +74,18 @@
   <polygon
      points="207.115 343.566 171.622 367.363 129.717 350.855 73.589 363.718 147.495 284.822 207.115 343.566"
      opacity="0.1"
-     id="polygon12" />
+     id="polygon12"
+     style="fill:#ffa163;fill-opacity:1;opacity:0.815" />
   <polygon
      points="550.5 205.514 538.61 226.404 511.95 198.474 482.74 226.404 466.23 194.664 439.56 226.404 431.94 206.094 414.17 226.404 382.42 206.094 359.97 214.194 472.58 82.104 550.5 205.514"
      opacity="0.1"
-     id="polygon14" />
+     id="polygon14"
+     style="fill:#ff6600;opacity:0.613" />
   <polygon
      points="839.483 283.895 806.555 324.187 779.888 292.441 739.253 325.457 709.804 286.003 773.539 206.09 839.483 283.895"
      opacity="0.1"
-     id="polygon16" />
+     id="polygon16"
+     style="fill:#ffa163;fill-opacity:1;opacity:0.94758065" />
   <path
      d="M952.88867,566.30606l-1.77734-.918c23.082-44.624,10.73926-102.5752-3.67871-143.332a439.29211,439.29211,0,0,0-37.27783-78.67481l1.69042-1.06836a441.53607,441.53607,0,0,1,37.47217,79.0752C963.86816,462.518,976.29785,521.04727,952.88867,566.30606Z"
      transform="translate(-113 -122.15293)"
