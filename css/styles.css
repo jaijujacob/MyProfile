@@ -37,7 +37,7 @@ p {
 hr {
   border: dotted #448ef6 6px;
   border-bottom: none;
-  width: 4%;
+  width: 10%;
   margin: 100px auto;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .skill-row {
-  width: 50%;
+  width: 80%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  width: 80%;
   margin: auto;
 }
 
