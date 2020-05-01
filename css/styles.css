@@ -8,7 +8,7 @@ body {
 
 h1 {
   color: #448ef6;
-  font-size: 5.625rem;
+  font-size: 4.625rem;
   margin: 50px auto 0 auto;
   /* font-family: 'Sacramento', cursive; */
   Font-family: 'Fredericka the Great', cursive;
@@ -19,12 +19,13 @@ h2 {
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'Bangers', cursive; */
   font-family: 'Righteous', cursive;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
+  font-size: 1.5rem;
   color: #448ef6;
   font-family: 'Montserrat', sans-serif;
 }
@@ -59,8 +60,10 @@ a:hover {
 
 .profilePic
 {
-  border-radius: 100%;
+  border-radius: 2%;
+  border: #ffffff 4px solid;
   width: 150px;
+  filter: drop-shadow(5px 10px 4px #cccccc);
 }
 .middle-container {
   margin: 100px 0;
@@ -103,6 +106,7 @@ a:hover {
   position: absolute;
   right: 30px;
   top: 40px;
+  
 }
 
 .bottom-file {
@@ -120,12 +124,14 @@ a:hover {
   width: 25%;
   float: left;
   margin-right: 30px;
+  filter: drop-shadow(5px 10px 4px #cccccc);
 }
 
-.chilli-img {
+.skill-img {
   width: 25%;
   float: right;
   margin-left: 30px;
+  filter: drop-shadow(5px 10px 4px #cccccc);
 }
 
 .btn {
@@ -143,6 +149,7 @@ a:hover {
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  filter: drop-shadow(5px 10px 4px #cccccc);
 }
 
 .btn:hover {
@@ -153,4 +160,5 @@ a:hover {
   background-image: -o-linear-gradient(top, #75c2f6, #448ef6);
   background-image: linear-gradient(to bottom, #75c2f6, #448ef6);
   text-decoration:underline;
+  
 }
