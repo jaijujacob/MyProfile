@@ -14,7 +14,7 @@
    height="711.86"
    viewBox="0 0 883 711.86"
    version="1.1"
-   sodipodi:docname="undraw_air_support_wy1q.svg"
+   sodipodi:docname="Baloons.svg"
    inkscape:version="0.92.5 (0.92.5+68)">
   <metadata
      id="metadata475">
@@ -41,7 +41,7 @@
      id="namedview473"
      showgrid="false"
      inkscape:zoom="2.5468492"
-     inkscape:cx="441.5"
+     inkscape:cx="335.29034"
      inkscape:cy="418.75272"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -222,7 +222,8 @@
      cy="81.15"
      r="72.31"
      fill="#fccc63"
-     id="circle314" />
+     id="circle314"
+     style="fill:#ff9955" />
   <polyline
      points="725.52 400.93 715.88 347.09 746.41 345.6 746.41 400.93 767.3 400.93 788.19 341.47"
      fill="none"

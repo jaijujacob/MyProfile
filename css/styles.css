@@ -1,9 +1,9 @@
 body {
-  color: #40514E;
+  color: #40514e;
   background-color: #f0f0f0;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
@@ -11,14 +11,14 @@ h1 {
   font-size: 4.625rem;
   margin: 50px auto 0 auto;
   /* font-family: 'Sacramento', cursive; */
-  Font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
 }
 
 h2 {
   color: #448ef6;
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'Bangers', cursive; */
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-size: 2rem;
   font-weight: normal;
   padding-bottom: 10px;
@@ -27,29 +27,47 @@ h2 {
 h3 {
   font-size: 1.5rem;
   color: #448ef6;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
   line-height: 2;
 }
-
+table {
+  clear: both;
+  width: 100%;
+  border: #1b262c 3px solid;
+  filter: drop-shadow(5px 10px 4px #cccccc);
+  border-radius: 5px;
+}
+th {
+  padding: 2px 5px 2px 5px;
+  background-color: #1b262c;
+  color: #eaf6f6;
+  /* border-radius: 3px; */
+}
+td {
+  padding: 2px 5px 2px 5px;
+  border-bottom: #cccccc 1px dotted;
+  background-color: #f0f0f0;
+}
 hr {
-  border: dotted #448ef6 6px;
+  border: dotted #1b262c 6px;
   border-bottom: none;
   width: 10%;
   margin: 100px auto;
+  filter: drop-shadow(5px 10px 4px #cccccc);
 }
 
-a{
+a {
   color: #448ef6;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 .top-container {
@@ -58,8 +76,7 @@ a:hover {
   padding-top: 100px;
 }
 
-.profilePic
-{
+.profilePic {
   border-radius: 2%;
   border: #ffffff 4px solid;
   width: 150px;
@@ -80,6 +97,11 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
 }
+.contact-row {
+  width: 80%;
+  margin: 100px auto 100px auto;
+  /* text-align: left; */
+}
 
 .pro {
   text-decoration: underline;
@@ -91,32 +113,30 @@ a:hover {
 }
 
 .contact-message {
-  width: 40%;
+  width: 80%;
   margin: 40px auto 60px;
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
 
 .top-file {
-  width:150px;
+  width: 150px;
   position: absolute;
   right: 30px;
   top: 40px;
-  
 }
 
 .bottom-file {
   position: absolute;
   left: 20px;
   bottom: 50px;
-  width:200px;
+  width: 200px;
 }
-.mainGraph{
-
+.mainGraph {
   width: 400px;
 }
 
@@ -133,6 +153,12 @@ a:hover {
   margin-left: 30px;
   filter: drop-shadow(5px 10px 4px #cccccc);
 }
+.contact-img {
+  width: 15%;
+  /* float: left; */
+  margin-right: 30px;
+  filter: drop-shadow(5px 10px 4px #cccccc);
+}
 
 .btn {
   background: #75c2f6;
@@ -144,7 +170,7 @@ a:hover {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -159,6 +185,5 @@ a:hover {
   background-image: -ms-linear-gradient(top, #75c2f6, #448ef6);
   background-image: -o-linear-gradient(top, #75c2f6, #448ef6);
   background-image: linear-gradient(to bottom, #75c2f6, #448ef6);
-  text-decoration:underline;
-  
+  text-decoration: underline;
 }
